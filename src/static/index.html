@@ -7,9 +7,19 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="branch-background" aria-hidden="true">
+      <span class="branch-line branch-line-one"></span>
+      <span class="branch-line branch-line-two"></span>
+      <span class="branch-line branch-line-three"></span>
+      <span class="branch-line branch-line-four"></span>
+    </div>
     <header>
-      <h1>Mergington High School</h1>
-      <h2>Extracurricular Activities</h2>
+      <div class="school-mark" aria-hidden="true">M</div>
+      <div>
+        <p class="school-kicker">Mergington High School</p>
+        <h1>Find your branch</h1>
+        <h2>Extracurricular Activities</h2>
+      </div>
       <div id="user-controls">
         <div id="user-status">
           <button id="login-button" class="icon-button">
@@ -25,6 +35,24 @@
     </header>
 
     <main>
+      <section class="mascot-banner" aria-labelledby="mascot-heading">
+        <div>
+          <p class="section-kicker">Meet the Mergington mascots</p>
+          <h2 id="mascot-heading">Make your mark after school.</h2>
+          <p>Explore clubs, connect with classmates, and grow your own branch of the school community.</p>
+        </div>
+        <div class="mascot-gallery">
+          <a href="https://octodex.github.com/" aria-label="Visit the Octodex gallery">
+            <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" alt="Daft Punktocat mascot" />
+          </a>
+          <a href="https://octodex.github.com/" aria-label="Visit the Octodex gallery">
+            <img src="https://octodex.github.com/images/megacat-2.png" alt="Megacat mascot" />
+          </a>
+          <a href="https://octodex.github.com/" aria-label="Visit the Octodex gallery">
+            <img src="https://octodex.github.com/images/jetpacktocat.png" alt="Jetpacktocat mascot" />
+          </a>
+        </div>
+      </section>
       <section id="activities-container">
         <div class="main-content-layout">
           <!-- Left Sidebar for Filters -->
